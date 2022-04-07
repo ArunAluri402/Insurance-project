@@ -1,0 +1,38 @@
+.Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(224, 224, 224, 0.8);
+  margin: auto;
+  height: auto;
+}
+
+.leftContainer {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  margin-left: 10px;
+
+}
+
+.rightContainer {
+  display: flex;
+  flex:1;
+  justify-content: flex-end;
+}
+
+h6 {
+  font-size: 12px;
+  color: #000;
+  cursor: pointer;
+  letter-spacing: 1.4px;
+  margin-right: 35px;
+  padding: 15px;
+  font-weight: 500;
+
+
+}
+
+h6.text{
+    margin-right: 35px;
+}
