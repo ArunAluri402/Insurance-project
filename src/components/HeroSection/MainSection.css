@@ -75,4 +75,10 @@ button:hover {
   .heroContentWrapper button {
     margin-top: 5px;
   }
+  h6 {
+    margin-right: 0px;
+  }
+  .leftContainer .text {
+    margin-right: 0px;
+  }
 }
