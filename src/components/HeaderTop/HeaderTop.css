@@ -12,12 +12,11 @@
   flex: 1;
   justify-content: flex-start;
   margin-left: 10px;
-
 }
 
 .rightContainer {
   display: flex;
-  flex:1;
+  flex: 1;
   justify-content: flex-end;
 }
 
@@ -29,10 +28,32 @@ h6 {
   margin-right: 35px;
   padding: 15px;
   font-weight: 500;
-
-
 }
 
-h6.text{
-    margin-right: 35px;
+h6.text {
+  margin-right: 35px;
+}
+
+@media screen and (max-width: 600px) {
+  .Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 4px solid white;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .rightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

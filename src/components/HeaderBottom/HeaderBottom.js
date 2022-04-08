@@ -14,7 +14,7 @@ function HeaderBottom() {
       </div>
       <div className="sideContainer">
         <h5 className="loginSection">LOG IN</h5>
-        <BsSearch size="28px" />
+        <BsSearch className="search-icon" size="28px" />
       </div>
     </div>
   );

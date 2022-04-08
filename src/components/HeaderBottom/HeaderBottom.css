@@ -41,3 +41,36 @@ h5 {
   padding: 15px;
   font-weight: 700;
 }
+
+@media screen and (max-width: 600px) {
+  .flexWrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+  }
+
+  .flexWrapper img {
+    width: 17%;
+    object-fit: contain;
+    margin-left: 2px;
+    margin-right: 0px;
+  }
+
+  .navbar {
+    display: none !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sideContainer h5 {
+    font-size: 12px;
+    padding: 7px;
+    margin-right: 15px;
+  }
+
+  .sideContainer .search-icon{
+    padding: 2px;
+  }
+}

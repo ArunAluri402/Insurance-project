@@ -27,7 +27,6 @@ h1 {
 p {
   font-size: 14px;
   margin-bottom: 35px;
-  line-height: 1.4px;
   letter-spacing: 1.6px;
   object-fit: scale-down;
 }
@@ -47,4 +46,33 @@ button {
 button:hover {
   background-color: lightblue;
   color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .mainContainer img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .heroContentWrapper {
+    position: static;
+    background-color: #fff;
+    color: black;
+    padding-top: 5px;
+    padding-left: 15px;
+    width: 100%;
+  }
+
+  .heroContentWrapper h1 {
+    margin-bottom: 15px;
+  }
+
+  .heroContentWrapper p {
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+  }
+
+  .heroContentWrapper button {
+    margin-top: 5px;
+  }
 }
