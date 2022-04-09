@@ -82,3 +82,43 @@ button:hover {
     margin-right: 0px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .mainContainer img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .heroContentWrapper {
+    position: static;
+    background-color: #fff;
+    color: black;
+    padding-top: 5px;
+    padding-left: 15px;
+    width: 100%;
+  }
+
+  .heroContentWrapper h1 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .heroContentWrapper p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    letter-spacing: 0.2px;
+  }
+
+  .heroContentWrapper button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: small;
+  }
+  h6 {
+    margin-right: 0px;
+  }
+  .leftContainer .text {
+    margin-right: 0px;
+  }
+}
